@@ -1,0 +1,41 @@
+{
+  "name": "@builtbyecho/echo-orbit",
+  "version": "0.1.2",
+  "description": "Scan and package Base apps so AI agents can understand, call, and safely use them.",
+  "type": "module",
+  "bin": {
+    "echo-orbit": "bin/echo-orbit.js",
+    "echo-mcp-ready": "bin/echo-mcp-ready.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "keywords": [
+    "base",
+    "mcp",
+    "ai-agents",
+    "x402",
+    "agent-ready",
+    "onchain"
+  ],
+  "author": "BuiltByEcho",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuiltByEcho/echo-orbit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BuiltByEcho/echo-orbit/issues"
+  },
+  "homepage": "https://github.com/BuiltByEcho/echo-orbit#readme"
+}
